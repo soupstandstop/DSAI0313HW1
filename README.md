@@ -1,0 +1,2 @@
+# trader.py
+hiiii
