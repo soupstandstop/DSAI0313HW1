@@ -14,7 +14,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     import pandas as pd
     import numpy as np
-    import csv
     # trader = Trader()
     testing_data = pd.read_csv(args.testing, header=None, names=["Open", "High", "Low", "Close"])
     open = testing_data['Open']
