@@ -36,7 +36,7 @@ https://www.dropbox.com/s/0p6mx922eafy6tm/testing_data.csv?dl=0
 
 
 # 答案想法
-這次作業我沒有train data，直接使用testing data找到以下的方式可以賺的比buy-and-hold strategy多。
+這次作業使用Unsupervised learning，直接使用testing data找到以下的方式可以賺的比buy-and-hold strategy多。
 交易方式(action)為第一天先buy股票(action=1)，第二天不做動作(action=0)，
 目前股票持有單位使用count來計算，第一天count=1，第二天count=1
 接著來到第三天(i=3)，以第二天開盤價(Open)與第一天開盤價比較價錢高低：
